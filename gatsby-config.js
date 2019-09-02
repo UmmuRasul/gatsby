@@ -5,5 +5,7 @@
  */
 
 module.exports = {
+  pathPrefix:
+  "gatsby",
   /* Your site config here */
 }
