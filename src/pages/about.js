@@ -6,8 +6,11 @@ export default () => (
     <div>
       <h2>About Mariam</h2>
         <p>
-          Finalist at Kibabii University in Bungoma. Taking Bachelor of science in Information Technology. Persionate learning alot in Technology.
-          She has interest in learnibg IoT and software development. Got basic knowledge in python during internship at swahiliBox from June to September. willing to learn more on python and javascript as they are most popular in moden technological world. 
+          Finalist at Kibabii University in Bungoma. Taking Bachelor of science in Information Technology. 
+          Pationate about learning and invest alot in Technology.
+          She has interest in learning IoT and software development. 
+          Got basic knowledge in python during internship at swahiliBox from June to September.
+          Willing to learn more on python and javascript as they are most popular in moden technological world.
 
         </p>
     </div>
