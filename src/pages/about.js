@@ -4,24 +4,25 @@ import Layout from "../components/layout"
 export default () => (
   <Layout>
     <div>
-      <h1>About Pandas Eating Lots</h1>
+      <h2>About Mariam</h2>
         <p>
-          We're the only site running on your computer dedicated to showing the best
-          photos and videos of pandas eating lots of food.
+          Finalist at Kibabii University in Bungoma. Taking Bachelor of science in Information Technology. Persionate learning alot in Technology.
+          She has interest in learnibg IoT and software development. Got basic knowledge in python during internship at swahiliBox from June to September. willing to learn more on python and javascript as they are most popular in moden technological world. 
+
         </p>
     </div>
     <div>
-      <h1>About Pandas Eating Lots</h1>
+      <h2>Hobbies</h2>
         <p>
-          We're the only site running on your computer dedicated to showing the best
-          photos and videos of pandas eating lots of food.
+          socialising, exchanging ideas in solving problems.
+
         </p>
     </div>
     <div>
-      <h1>About Pandas Eating Lots</h1>
+      <h1>Believe</h1>
         <p>
-          We're the only site running on your computer dedicated to showing the best
-          photos and videos of pandas eating lots of food.
+         anybody can do anything.<br></br>
+         It always seems impossible until it’s done
         </p>
     </div>
   </Layout>

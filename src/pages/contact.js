@@ -9,8 +9,12 @@ import github from "../images/github-logo.png";
 export default () => (
   <Layout>
    
+  <div>
+     <h4>A well-educated mind will always have more questions than answers.</h4>
+  </div>
+
   <h3 className="text-center">
-      Talk to me
+      Talk to me and lets work together
     </h3>
     <div text-center social-share-link>
       <a href={'https://www.facebook.com/profile.php?id=100009587345210'}> <img src={facebook} alt="Mariam" /></a>
@@ -18,11 +22,6 @@ export default () => (
       <a href={'https://twitter.com/MariamA65594389'}> <img src={twitter} alt="Mariam" /></a>
       <a href={'https://github.com/UmmuRasul'}> <img src={github} alt="Mariam" /></a>
     </div>
-    <div>
-     <h1>I'd love to talk! Email me at the address below</h1>
-       <p>
-         <a href="mariamabdallah711@gmail.com">@mariamabdallah711@gmail.com</a>
-      </p>
-  </div>
+    
   </Layout>
 )

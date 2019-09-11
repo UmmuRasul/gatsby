@@ -6,20 +6,14 @@ import img from "../images/img.png";
 export default () => (
   <Layout>
     <div>
-      <img src={img} alt="Mariam" />
+      <img src={img} alt="Mariam" height="300" width="250" />
     </div>
     <div>
-      <h1>Hi! I'm Mariam building my profile website!</h1>
+      <h3>Mariam Abdallah</h3>
         <p>
-          What do I like to do? Lots of course but definitely enjoy building
-          websites.
-        </p>
-    </div>
-    <div>
-      <h1>Hi! I'm Mariam building my profile website!</h1>
-        <p>
-          What do I like to do? Lots of course but definitely enjoy building
-          websites.
+         <b>School: </b>Kibabii University<br></br>
+         <b>Field:</b> Information Technology<br></br>
+         <b>Interest:</b> Software Development<br></br>
         </p>
     </div>
   </Layout>
