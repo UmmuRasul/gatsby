@@ -1,15 +1,3 @@
-import React from 'react'
-import {Link} from 'gatsby'
+import React from "react"
 
-export default props => (
-    <header>
-        <h2>
-        Workshop{''}
-        {props.workshopNumber}
-        </h2>
-        <nav>
-            <Link to={'/'}>home</Link>{''}
-            <Link to={'/about'}>About</Link>
-        </nav>
-    </header>
-)
+export default props => <h1>{props.headerText}</h1>
