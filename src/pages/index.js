@@ -11,7 +11,7 @@ export default () => (
     <div>
       <h3>Mariam Abdallah</h3>
         <p>
-         <b>School: </b><a href={'https://kibu.ac.ke/'}> Kibabii University</a><br></br>
+         <b>School: </b>Kibabii University<br></br>
          <b>Field:</b> Information Technology<br></br>
          <b>Interest:</b> Software Development<br></br>
         </p>
