@@ -1,12 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
-import img from "../images/img.png";
+import img from "../images/img.jpg";
 
 
 export default () => (
   <Layout>
     <div>
-      <img src={img} alt="Mariam" height="300" width="250" />
+      <img src={img} alt="Mariam" height="300" width="350" />
     </div>
     <div>
       <h3>Mariam Abdallah</h3>
