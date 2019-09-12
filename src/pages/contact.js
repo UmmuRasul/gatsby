@@ -10,7 +10,26 @@ export default () => (
   <Layout>
    
   <div>
-     <h4>A well-educated mind will always have more questions than answers.</h4>
+     <h4>Leave a comment please </h4>
+     <form method="post" action="#">
+      <div>
+      <label>
+          Email<br></br>
+      </label>
+      <input type="email" name="email" id="email" /><br></br>
+      </div>
+      <div>
+      <label>
+        comment<br></br>
+      </label>
+      <textarea name="message" id="message" rows="5" /><br></br>
+      </div>
+     <div>
+     <button type="submit">Send</button>
+      <input type="reset" value="Clear" />
+     </div>
+      
+</form>
   </div>
 
   <h3 className="text-center">
@@ -25,3 +44,4 @@ export default () => (
     
   </Layout>
 )
+//https-ummurasul-github-io-gatsby.disqus.com
