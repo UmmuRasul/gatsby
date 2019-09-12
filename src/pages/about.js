@@ -9,8 +9,8 @@ export default () => (
           Finalist at <b>Kibabii University</b> in Bungoma. In the field of science in Information Technology.
           Pationate about learning and invest alot in Technology. 
           She has interest in learning IoT and software development. 
-          Got basic knowledge in python during internship at swahiliBox from June to September.
-          Planning to dive deep as she can on python and javascript as they are most popular in moden technological world.
+          Got basic knowledge in python during internship at <b>SwahiliBox</b> from June to September.
+          Planning to dive deep as she can on python and javascript as they are most popular in moden technology world.
         </p>
     </div>
     <div>
