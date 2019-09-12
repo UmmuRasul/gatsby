@@ -11,27 +11,22 @@ import googleplus from "../images/google-plus.png";
 export default () => (
   <Layout>
    
-  <div>
+  <div className="col-10 col-sm-8 col-md-6 mx-auto">
      <h4>Leave a comment please </h4>
-     <form method="post" action={'https://mail.google.com/mail/u/0/'}>
-      <div>
-      <label>
-          Email<br></br>
-      </label>
-      <input type="email" name="email" id="email" /><br></br>
-      </div>
-      <div>
-      <label>
-        comment<br></br>
-      </label>
-      <textarea name="message" id="message" rows="5" /><br></br>
-      </div>
-     <div>
-     <button type="submit">Send</button>
-      <input type="reset" value="Clear" />
-     </div>
-      
-</form>
+        <form method="post" action="https://formspree.io/mariamabdallah711@gmail.com">
+            {/* Email */}
+              <div className="form-group mt-5 m-b-2">
+                <label htmlFor="email">Email:</label><br></br>
+                <input type="text" className="form-control" name="email" id="email" placeholder="example@example" />
+              </div><br></br>
+            {/* comments */}
+              <div className="form-group mt-5 m-b-2">
+                <label htmlFor="comments">Comments:</label><br></br>
+                <textarea name="comments" id="comments" className="form-control" row="5" placeholder="Your Comments Here...."></textarea>
+              </div><br></br>
+            {/* buttons */}
+            <button type="submit" className="btn btn-blue btn-block text-Capitalize mt-5">Send</button>
+        </form>
   </div>
 
   <h3 className="text-center">
