@@ -5,13 +5,15 @@ import facebook from "../images/facebook.png";
 import linkedin from "../images/linkedin.png";
 import twitter from "../images/twitter.png";
 import github from "../images/github-logo.png";
+import googleplus from "../images/google-plus.png";
+
 
 export default () => (
   <Layout>
    
   <div>
      <h4>Leave a comment please </h4>
-     <form method="post" action="#">
+     <form method="post" action={'https://mail.google.com/mail/u/0/'}>
       <div>
       <label>
           Email<br></br>
@@ -40,8 +42,8 @@ export default () => (
       <a href={'https://www.linkedin.com/in/mariam-abdallah-b64648143/'}> <img src={linkedin} alt="Mariam" /></a>
       <a href={'https://twitter.com/MariamA65594389'}> <img src={twitter} alt="Mariam" /></a>
       <a href={'https://github.com/UmmuRasul'}> <img src={github} alt="Mariam" /></a>
+      <a href={'https://mail.google.com/mail/u/0/'}> <img src={googleplus} alt="Mariam" /></a>
+      
     </div>
-    
   </Layout>
 )
-//https-ummurasul-github-io-gatsby.disqus.com
