@@ -25,7 +25,7 @@ export default () => (
                 <textarea name="comments" id="comments" className="form-control" row="5" placeholder="Your Comments Here...."></textarea>
               </div><br></br>
             {/* buttons */}
-            <button type="submit" className="btn btn-blue btn-block text-Capitalize mt-5">Send</button>
+            <button type="submit" name="_next" value="//https://ummurasul.github.io/gatsby//thanks.html text-Capitalize mt-5">Send</button>
         </form>
   </div>
 
