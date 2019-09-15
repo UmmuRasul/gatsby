@@ -6,10 +6,10 @@ import img from "../images/img.png";
 export default () => (
   <Layout>
   <div class="row">
-  <div class="col-sm-6">
+  <div class="col">
       <img src={img} alt="Mariam" height="550" width="600" />
     </div>
-    <div class="col-sm-6">
+    <div class="col">
       <h3>Mariam Abdallah</h3>
         <p>
          <b>School: </b>Kibabii University<br></br>
